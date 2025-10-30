@@ -1,0 +1,187 @@
+
+
+html, body{
+  margin: 0;
+  padding: 0px;
+}
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* mga text sizes whatever the fuck */
+
+h1 {
+    font-size: 64px;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+h3 {
+    font-size: 128px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+
+/* Navigation */
+
+.nav-bar {
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 12px 30px;
+    margin: 20px auto;
+    background-color: #f3f3f3;
+    border-radius: 99999px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-nav li {
+  margin: 0px 10px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+
+/* sections and divs*/
+
+.default-sec {
+    display: flex;
+    padding: 20px 80px;
+    margin: 100px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Hero page */
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding:40px;
+    height: 85vh;
+    width: auto;
+    background-image: url(https://i.kym-cdn.com/editorials/icons/mobile/000/013/755/mon.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* mga div sa hero */
+
+.div-left {
+    display: flex;
+    flex-direction: column;
+}
+
+/* cards */
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 50px 10px;
+  background-color:#d4d4d4;
+  border-radius: 40px;
+  min-width: 200px;
+}
+
+.nat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px 10px;
+  width: 350px;
+  height: 450px;
+  background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/003/072/174/6fd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.jj {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px 10px;
+  width: 350px;
+  height: 450px;
+  background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/003/072/174/6fd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.dave {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px 10px;
+  width: 350px;
+  height: 450px;
+  background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/003/072/174/6fd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
