@@ -3,10 +3,6 @@ html, body{
   padding: 0px;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* scrollbar */
 
 html{
@@ -552,6 +548,7 @@ h4 {
 }
 
 /* misc */
+
 .card-link {
   text-decoration: none;
   color: inherit;
