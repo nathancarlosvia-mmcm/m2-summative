@@ -440,3 +440,72 @@ h4 {
   border-radius: 20px;
   display: block;
 }
+/* === IMAGE HOVER EFFECT === */
+.work-sample {
+  position: relative;
+  overflow: hidden;
+}
+
+.work-sample::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0px);
+  transition: all 0.4s ease;
+  border-radius: 20px;
+}
+
+.work-sample:hover::after {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+/* Smooth zoom effect */
+.work-sample img {
+  transition: transform 0.4s ease;
+}
+
+.work-sample:hover img {
+  transform: scale(1.05);
+}
+
+/* === RESPONSIVENESS === */
+@media (max-width: 900px) {
+  .works-gallery {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .work-sample {
+    max-width: 48%;
+  }
+
+  .page-title {
+    font-size: 72px;
+  }
+
+  .artist-section {
+    margin: 50px 30px;
+    padding: 40px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .works-gallery {
+    flex-direction: column;
+  }
+
+  .work-sample {
+    max-width: 100%;
+  }
+
+  .page-title {
+    font-size: 48px;
+  }
+
+  .artist-section {
+    margin: 30px 20px;
+    padding: 30px;
+  }
+}
