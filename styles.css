@@ -1,8 +1,10 @@
-
-
 html, body{
   margin: 0;
   padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* scrollbar */
@@ -24,7 +26,6 @@ html{
   background-color:#df5025;
   border-radius: 9999px;
 }
-
 
 /* fonts */
 
@@ -549,3 +550,11 @@ h4 {
     padding: 30px;
   }
 }
+
+/* misc */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
