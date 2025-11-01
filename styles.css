@@ -115,7 +115,7 @@ h3 {
   text-decoration: none;
 }
 
-/* Hero page */
+/* (Homepage) Hero page */
 
 .hero {
     display: flex;
@@ -132,14 +132,14 @@ h3 {
     border-bottom-left-radius: 30px;
 }
 
-/* mga div sa hero */
+/* (Homepage) mga div sa hero */
 
 .div-left {
     display: flex;
     flex-direction: column;
 }
 
-/* cards */
+/* (Homepage) cards */
 
 .card-container{
   display: flex;
@@ -208,3 +208,5 @@ h3 {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
+
+/* (Homepage) About the Gallery section */
