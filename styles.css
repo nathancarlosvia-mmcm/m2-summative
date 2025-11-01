@@ -66,7 +66,7 @@ h4 {
 p {
     font-size: 18px;
     font-weight: 400;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     color: black;
@@ -238,7 +238,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 40px;
+  gap: 10px;
   overflow-x: auto;
   padding: 20px 0px;
   scrollbar-width: thin;
@@ -268,6 +268,12 @@ p {
   background-color:#e2e2e2;
   border-radius: 40px;
   transition: all 0.3s ease;
+  margin: 20px;
+}
+
+.artist-card p{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .artist-card:hover {
@@ -457,6 +463,10 @@ p {
   background-color: #e2e2e2;
   margin-bottom: 20px;
   border-radius: 30px;
+}
+
+.artist-section p{
+  padding-bottom: 1rem;
 }
 
 
