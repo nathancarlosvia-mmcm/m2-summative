@@ -49,17 +49,18 @@ h4 {
 /* Navigation */
 
 .nav-bar {
-    position: fixed;
-    top: 10px;
-    left: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    padding: 12px 30px;
-    margin: 20px auto;
-    background-color: #f3f3f3;
-    border-radius: 99999px;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 12px 30px;
+  margin: 20px auto;
+  background-color: #f3f3f3;
+  border-radius: 99999px;
+  z-index: 9999;
 }
 
 .main-nav {
