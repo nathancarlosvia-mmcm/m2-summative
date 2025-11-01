@@ -1,8 +1,26 @@
-
-
 html, body{
   margin: 0;
   padding: 0px;
+}
+
+/* scrollbar */
+
+html{
+  scrollbar-width:thin;
+  scrollbar-color: #ffa358 #e2e2e2;
+}
+
+::-webkit-scrollbar-track {
+  background-color:#e2e2e2;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#df5025;
+  border-radius: 9999px;
 }
 
 /* fonts */
@@ -214,8 +232,8 @@ h4 {
   gap: 40px;
   overflow-x: auto;
   padding: 20px 0px;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #ffa358 #e2e2e2; /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #ffa358 #e2e2e2;
 }
 
 .card-container::-webkit-scrollbar-track {
@@ -528,3 +546,12 @@ h4 {
     padding: 30px;
   }
 }
+
+/* misc */
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
