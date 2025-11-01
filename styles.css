@@ -60,7 +60,16 @@ h4 {
     padding: 0px;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
-    color: balck;
+    color: black;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
 }
 
 
