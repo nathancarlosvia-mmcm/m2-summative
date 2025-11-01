@@ -319,9 +319,10 @@ h4 {
 
 .artistgrid{
   display: grid;
-  border: solid;
-  margin: 20px;
-  height: 600px;
+  margin: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 1500px;
   width: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -330,7 +331,7 @@ h4 {
   "box1 box1 box2"
   "box3 box4 box4"
   "box5 box5 box6";
-   justify-content: center;
+  justify-content: center;
 }
 
 .artistcard {
