@@ -177,6 +177,7 @@ h4 {
 .div-left {
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 
 /* (Homepage) cards */
