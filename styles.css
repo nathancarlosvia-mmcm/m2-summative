@@ -164,7 +164,7 @@ h4 {
     padding:40px;
     height: 85vh;
     width: auto;
-    background-image: url(https://i.kym-cdn.com/editorials/icons/mobile/000/013/755/mon.jpg);
+    background-image: url(assets\homepage\hero-page bg.png);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -177,6 +177,7 @@ h4 {
 .div-left {
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 
 /* (Homepage) cards */
