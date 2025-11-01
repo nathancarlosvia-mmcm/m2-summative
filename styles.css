@@ -428,14 +428,11 @@ p {
   justify-content: center;
 }
 
-@media (max-width: 1200px){
-  .artistgrid { height: 600px;
-  }
-}
 
 .artistcard {
   border: solid;
   background-color: #fb6824;
+  align-content: center;
 }
 
 
@@ -564,7 +561,20 @@ p {
     margin: 30px 20px;
     padding: 30px;
   }
+
+  
 }
+
+@media (max-width: 1200px){
+  .artistgrid { height: 600px;
+  }
+}
+
+@media (min-width: 1200px){
+  .artistnote{ font-size: 30px;
+  }
+}
+
 
 /* misc */
 
