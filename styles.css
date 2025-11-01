@@ -129,6 +129,12 @@ h4 {
   font-weight: 600;
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.seemore-btn:hover {
+  background-color: #df5025;
+  transform: scale(1.05);
 }
 
 .abt-button {
