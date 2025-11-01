@@ -164,10 +164,11 @@ h4 {
     padding:40px;
     height: 85vh;
     width: auto;
-    background-image: url(assets\homepage\hero-page bg.png);
+    background-image: url(assets/homepage/hero-page-bg.png);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
