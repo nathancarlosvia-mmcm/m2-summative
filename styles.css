@@ -413,14 +413,15 @@ p {
 
 .artistgrid{
   display: grid;
-  margin: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 250px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 160px;
   height: 1500px;
   width: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  row-gap: 10px;
+  row-gap: 30px;
   grid-template-areas:
   "box1 box1 box2"
   "box3 box4 box4"
@@ -430,9 +431,24 @@ p {
 
 
 .artistcard {
-  border: solid;
   background-color: #fb6824;
   align-content: center;
+}
+
+.artistheader {
+  margin-top: 90px;
+  padding: 30px;
+  margin-left: 60px;
+  margin-bottom: -280px;
+}
+
+.artistname {
+  font-size: 70px;
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom: -20px;
+  margin-top: 10px;
+
 }
 
 
@@ -571,10 +587,16 @@ p {
 }
 
 @media (min-width: 1200px){
-  .artistnote{ font-size: 30px;
+  .artistnote{ font-size: 25px;
   }
+  .artistname{ font-size: 150px;}
 }
 
+@media (max-width: 600px){
+  .artistnote{ font-size: 15px;
+  }
+  .artistname{ font-size: 40px;}
+}
 
 /* misc */
 
